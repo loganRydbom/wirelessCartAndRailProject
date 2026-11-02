@@ -1,0 +1,56 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #580404;
+    color: #ffffff
+}
+
+/* Classes */
+.titleBar {
+    background-color: #a00707;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stretchContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*overflow: auto;
+    width: 100%;*/
+    
+}
+
+.dataContainer {
+    border-width: 5px;
+    border-style: solid;
+    border-color: #a00707;
+    background-color: #580404;
+    text-align: center;
+    float: left;
+    width: 32%;
+}
+
+.controlPanel {
+    border-width: 5px;
+    border-style: solid;
+    border-color: #a00707;
+    background-color: #580404;
+    text-align: center;
+    float: left;
+    width: 100%
+}
+
+/* IDs */
+#increase {
+    background-color: #0a4602;
+    color: #ffffff;
+    border-color: #0f7e00;
+}
+#decrease {
+    background-color: #790000;
+    color: #ffffff;
+    border-color: #a00707;
+}

@@ -1,4 +1,39 @@
 <!DOCTYPE HTML>
-<head></head>
-<body></body>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Wireless Cart and Rail Sensor</title>
+</head>
+<body>
+    <div class="titleBar">
+        <h1>Wirless Cart and Rail Sensor</h1>
+        <br>
+        <p class="subtitle">Gunnar Anacker || Logan Rydbom</p>
+    </div>
+    <br><br>
+    <!-- Data bar -->
+     <div class="stretchContainer">
+        <div class="dataContainer">
+            <h1>Desired Position</h1>
+            <p id="desiredPosition">--</p>
+        </div>
+        <div class="dataContainer">
+            <h1>Current Cart Position</h1>
+            <p id="position">--</p>
+        </div>
+        <div class="dataContainer">
+            <h1>Servo Command</h1>
+            <p id="command">--</p>
+        </div>
+     </div>
+     <br>
+     <div class="stretchContainer">
+        <div class="controlPanel">
+            <h1>Control Panel</h1>
+            <h3 id="setpoint">0</h3>
+            <button id="increase" onclick="">Increase</button>
+            <button id="decrease" onclick="">Decrease</button>
+            <p></p>
+        </div>
+     </div>
+</body>
 </html>
