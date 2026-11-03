@@ -30,11 +30,13 @@
      <div class="stretchContainer">
         <div class="controlPanel">
             <h1>Control Panel</h1>
-            <h3 id="setpoint">0</h3>
-            <button id="increase" onclick="">Increase</button>
-            <button id="decrease" onclick="">Decrease</button>
+            <h3 id="setpoint">2</h3>
+            <button id="increase" onclick="increaseSetpoint()">Increase</button>
+            <button id="decrease" onclick="decreaseSetpoint()">Decrease</button>
             <p></p>
         </div>
      </div>
+     <script src="scripts/pullData.js"></script>
+     <script src="scripts/buttonManagement.js"></script>
 </body>
 </html>
